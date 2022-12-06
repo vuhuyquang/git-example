@@ -14,8 +14,14 @@ git add .
 // add tất cả file
 5. git commit -m "Message"
 // commit code với mô tả "Message"
-6. git branch
+6. 
+git branch
 // xem nhánh
+git branch -d branch_name
+// xóa nhánh tên là "branch_name"
 7. git remote add origin https://github.com/vuhuyquang/git-example.git
-// tạo thư mục từ máy tính lên repo git
+// tạo mới 1 remote
 8. git push origin develop
+// đẩy code lên nhánh develop
+9. git pull origin develop
+// lấy code từ nhánh develop về máy tính
