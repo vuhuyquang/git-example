@@ -9,3 +9,5 @@ git add file_name
 // add từng file
 git add .
 // add tất cả file
+5. git commit -m "Message"
+// commit code với mô tả "Message"
